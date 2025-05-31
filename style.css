@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,Body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    /* background-color: green; */
+      display: flex;
+    /* align-items: end; */
+    justify-content:space-between;
+    box-shadow: 1px 1px 2px 0.2px;
+}
+nav img{
+    /* width: 100%; */
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-right: 12px;
+    /* justify-content: center; */
+}
+nav li{
+    list-style: none;
+}
+ul button{
+    padding: 10px 15px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(blue,violet);;
+    /* background-color:#833AB4; */
+}
+
+@media screen and (max-width:862px) {
+    body{
+        /* background-color: green; */
+    }
+    nav ul li{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+}
+
+.Employer-sec{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* background-color: pink; */
+}
+.Employer-sec button{
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1.3px solid black;
+    background: linear-gradient(blue,violet);;
+    color: white;
+}
+@media screen and (max-width:920px){
+    .Employer-sec{
+        gap:10px
+    }
+}
+@media screen and (max-width:780px){
+     .Employer-sec h1{
+       font-size: 25px;
+    }
+    .Employer-sec h3{
+       display: none;
+    }
+    .Employer-sec p{
+        /* display: none; */
+    }
+    .Employer-sec button{
+        display: flex;
+    }
+
+}
+@media screen and (max-width:520px){
+    .Employer-sec p{
+       display: none;
+    }
+    .Employer-sec button{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+}
+.Bringing-sec{
+    /* width: 100%;
+    height: 13vh; */
+    /* display: flex; */
+    /* text-align: center; */
+   
+    /* background-color: aqua; */
+}
+.Bringing-sec1{
+    width: 100%;
+    height: 10vh;
+    /* background-color: green; */
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.Bringing-sec2{
+    width: 100%;
+    height: 5vh;
+    /* background-color: green; */
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:600px){
+    .Bringing-sec1 h1{
+       font-size: 20px;
+    }
+    .Bringing-sec1{
+        height: 5vh;
+    }
+    .Bringing-sec2{
+        height: 5vh;
+    }
+}
+
+.Search-sec{
+    width: 100%;
+    height: 10vh;
+    /* background-color:lightskyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 122px; */
+}
+.Search-sec1{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: forestgreen; */
+}
+.Search-sec2{
+    width: 50%;
+    height: 10vh;
+    /* background-color:blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 30px; */
+    /* gap: 10px; */
+    gap: 40px;
+}
+.Search-sec1 input{
+    width: 80%;
+    padding: 8px;
+    border-radius:8px;
+    border: 2px solid blue;
+    
+}
+.Search-sec2 button{
+    padding: 8px 30px;
+    border-radius:8px;
+    border: 1.2px solid black;
+    color: white;
+    background: linear-gradient(blue,violet);;
+}
+@media screen and (max-width:980px){
+   .Search-sec2{
+    gap:5px;
+   }
+}
+@media screen and (max-width:860px){
+   .Search-sec{
+    display: block;
+    height: 20vh;
+    /* background-color: aqua; */
+   }
+   .Search-sec2{
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    /* padding-left: 30px; */
+   }
+   .Search-sec2 button{
+    padding: 10px 30px;
+    margin-left: 10px;
+   }
+   .Search-sec1{
+    width: 100%;
+    /* padding: 8px; */
+   }
+   .Search-sec1 input{
+        width: 96%;
+        padding: 8px;
+   }
+}
+@media screen  and (max-width:650px){
+    .Search-sec1 input{
+        width: 92%;
+        padding: 8px;
+   }
+    /* .Search-sec2 button{
+        font-size: 9px;
+   } */
+}
+@media screen  and (max-width:440px){
+    
+    .Search-sec2 button{
+        font-size: 9.5px;
+   }
+}
+
+.Quick-por1{
+    width: 100%;
+    height: 12vh;
+   text-align: center;
+   justify-content: center;
+   /* background-color: aqua; */
+   display: flex;
+   align-items: center;
+}
+.Quick-por2{
+    width: 100%;
+    height: 6vh;
+   text-align: center;
+   justify-content: center;
+   /* background-color: aqua; */
+   display: flex;
+   /* align-items: center; */
+   gap: 20px;
+}
+@media screen  and (max-width:1050px){
+    
+    .Quick-por2{
+        gap: 10px;
+    }
+}
+@media screen  and (max-width:925px){
+    
+    .Quick-por2{
+        /* display: block; */
+        height: 10vh;
+        flex-wrap: wrap;
+        gap: 8px;
+        font-size: 15px;
+    }
+}
+.Featured-head{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.Featured-cards{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    
+    /* background-color: green; */
+}
+.Featured-cards4{
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    gap: 20px;
+}
+.card1{
+    width: 25%;
+    height: 45vh;
+    /* background-color: blueviolet; */
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 1px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.card1-1{
+    width: 100%;
+    height: 8vh;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1-2{
+    width: 100%;
+    height: 8vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1-3{
+    width: 100%;
+    height: 15vh;
+    /* background-color: chartreuse; */
+    text-align: center;
+    line-height: 22px;
+}
+.card1-4{
+    width: 100%;
+    height: 12vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1-4 button{
+    padding: 10px 60px;
+    background: linear-gradient(blue,violet);;
+    color: white;
+    border: none;
+}
+@media screen and (max-width:1150px){
+    .card1{
+         width: 22%;
+         height: 44vh;
+         gap: 5px;
+       
+    }
+}
+@media screen and (max-width:950px){
+    .card1{
+         width: 45%;
+        height: 50vh;
+       
+    }
+     .Featured-cards{
+        height: 120vh;
+    }
+      .Featured-cards4{
+        height: 120vh;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:700px){
+    .card1{
+         width: 100%;
+        height: 50vh;
+       
+    }
+     .Featured-cards{
+        height: 220vh;
+    }
+      .Featured-cards4{
+        height: 215vh;
+        flex-wrap: wrap;
+    }
+}
+.Featured-emp{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.Featured-emp-img{
+    width: 100%;
+    height: 22vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Featured-emp-img-inner{
+    width: 80%;
+    height: 22vh;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner img{
+    width: 80%;
+    border-radius:100px;
+    /* height: 10vh; */
+    /* padding: 10px; */
+}
+.android{
+    width: 100%;
+    height: 40vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color: green; */
+   text-align: center;
+}
+.ios{
+    width: 80%;
+    line-height: 40px;
+}
+.job-city{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    /* background-color: black; */
+    
+}
+.india{
+    width: 50%;
+    height: 20vh;
+    /* background-color: aqua; */
+     /* gap: 10px; */
+    /* border: 2px solid black; */
+
+}
+.india-head{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+   
+    
+}
+.india-list{
+    width: 100%;
+     height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* line-height: 30px; */
+    font-size: 14px;
+    /* background-color: pink; */
+}
+.international{
+    width: 50%;
+    /* background-color: brown; */
+}
+.international-head{
+    width: 100%;
+    /* height: 10vh; */
+     height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.international-list{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    /* background-color: green; */
+}
+@media screen and (max-width:1000px){
+   .job-city{
+    display: block;
+   }
+   .india{
+        width: 100%;
+        height: 25vh;
+   }
+   .international{
+    width: 100%;
+   }
+}
+@media screen and (max-width:500px){
+   .job-city{
+    display: block;
+   }
+   .india-list{
+        width: 100%;
+       
+        font-size: 10px;
+   }
+   .international-list{
+    width: 100%;
+    font-size: 10px;
+   }
+}
+.Job-posted{
+    width: 100%;
+    height: 20vh;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid black; */
+}
+.Job-posted-inner{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+     border: 2px solid black;
+     color: white;
+     background: linear-gradient(blue,violet);;
+    /* background-color: aqua; */
+}
+.jobs{
+    width: 20%;
+}
+.desc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: justify;
+    
+}
+.desc-p{
+    width: 80%;
+    line-height: 25px;
+}
+@media screen and (max-width:660px){
+   .Job-posted-inner{
+        gap: 25px;
+        font-size: 12px;
+   }
+}
+
+.Footer-icon{
+    width: 100%;
+    height: 10vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer-inner{
+    width: 40%;
+    height: 6vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Footer-inner i{
+    font-size: 20px;
+    gap: 10px;
+    margin: 10px;
+}
+.footer{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.copyright{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+@media screen and (max-width:872px){
+   .footer{
+        gap: 10px;
+        font-size: 13px;
+   }
+}
+@media screen and (max-width:636px){
+   .footer{
+        width: 100%;
+        height: 22vh;
+        display: block;
+        align-items: center;
+        text-align: center;
+        line-height: 20px;
+   }
+}
