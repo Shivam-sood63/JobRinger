@@ -178,7 +178,7 @@ ul button{
 }
 @media screen and (max-width:980px){
    .Search-sec2{
-    gap:2px;
+    gap:5px;
    }
 }
 @media screen and (max-width:860px){
@@ -218,7 +218,7 @@ ul button{
 @media screen  and (max-width:440px){
     
     .Search-sec2 button{
-        font-size: 9.5px;
+        font-size: 8px;
    }
 }
 
@@ -467,6 +467,7 @@ ul button{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 14px;
 }
 .international-list{
     width: 100%;
@@ -584,7 +585,7 @@ ul button{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 11px;
 }
 @media screen and (max-width:872px){
    .footer{
